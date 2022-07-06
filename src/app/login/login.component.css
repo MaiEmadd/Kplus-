@@ -1,0 +1,84 @@
+
+.btn{
+    background-color: rgba(247,96,0,0.8) !important;
+}
+
+.text,.form-check label{
+    color: #929292e4;
+}
+.form-check label{
+    font-size: 14px;
+}
+
+.form-check input{
+    border: 1px solid rgb(31,43,66);
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.text h3{
+    color:rgb(31,43,66) ;
+}
+input{
+    height: 45px;
+    outline: none;
+    border: none;
+}
+
+.image{
+    background-color:rgba(31,43,66,0.9) ;
+}
+
+.alert{
+    color: rgba(31,43,66,0.9);
+    height: 12px;
+}
+
+.alert i{
+    color: rgba(247,96,0,0.8) !important;
+
+}
+
+.recovery{
+    color:rgba(247,96,0,0.8) !important ;
+    font-size: 14px;
+}
+
+.recovery:hover{
+    color:rgba(247,96,0,0.6) !important;
+}
+
+.form-check-input{
+    outline: none;
+    border: none;
+    box-shadow: none;
+
+}
+.form-check-input:checked{
+    background-color:rgba(31,43,66,0.9);
+}
+
+input::placeholder{
+    color: rgba(0,0,0,0.3);
+}
+
+.content img{
+    margin-top: -100px;
+}
+
+@media (min-width : 360px)  and (max-width : 1500px){
+    .image{
+        display: none;
+    }
+
+    .content img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+}
